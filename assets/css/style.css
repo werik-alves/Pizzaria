@@ -201,8 +201,10 @@ body {
 }
 
 @media (max-width: 640px) {
-  .containPizza img {
-    width: 300px;
+  /* .containPizza img {
+    width: 400px;
+    height: 200px;
+    padding-bottom: 20px;
   }
 
   .Subtitulo{
@@ -211,5 +213,21 @@ body {
     justify-content: center;
     font-size: 25px;
     padding-bottom: 155px;
+  } */
+
+  .containPizza{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
   }
+
+  .Subtitulo {
+   font-size: 30px; 
+  }
+
+  .containPizza img {
+    width: 350px;
+  }
+
 }
